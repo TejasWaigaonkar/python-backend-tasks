@@ -33,5 +33,3 @@ print("Index of 20:", numbers.index(20))
 #Check if 40 exists
 print("40 exists:", 40 in numbers)
 
-#Find length
-print("Length:", len(numbers))
