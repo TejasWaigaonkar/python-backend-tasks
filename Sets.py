@@ -29,3 +29,12 @@ print("ketchup" in branch_a_products)
 
 essential_items = frozenset(["milk", "bread", "ketchup"])
 print(essential_items)
+
+#Sets Comprehensions
+numbers = {i for i in range(1, 6)}
+print(numbers)
+#--------------------
+even = {i for i in range(1, 11) if i % 2 == 0}
+print(even)
+
+#Dictionary Comprehensions
