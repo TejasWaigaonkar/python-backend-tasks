@@ -31,3 +31,18 @@ print(duplicate_cart)
 vegetables = "tomato cucumber spinach"
 vegetable_list = vegetables.split()
 print(vegetable_list)
+
+
+#Lists Comprehensions
+numbers = [i for i in range(1, 6)]
+print(numbers)
+#--------------------
+even = [i for i in range(1, 11) if i % 2 == 0]
+print(even)
+
+#Sets Comprehensions
+numbers = {i for i in range(1, 6)}
+print(numbers)
+#--------------------
+even = {i for i in range(1, 11) if i % 2 == 0}
+print(even)
