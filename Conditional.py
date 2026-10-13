@@ -20,6 +20,7 @@ else:
     print("Grade C")
 
 #nested if-else
+income = 12000
 if age >= 21:
     if income >= 25000:
         print("Eligible for loan")
