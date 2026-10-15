@@ -27,4 +27,6 @@ def process_order(item, quantity):
         print("Quantity must be in number")
 
 process_order("ginger", 2)
-process_order("masala", two)
+# process_order("masala", two)
+#---------------------------------------------------------
+
