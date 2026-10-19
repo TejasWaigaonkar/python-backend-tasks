@@ -19,7 +19,7 @@ CREATE TABLE borrow_records (
 
 INSERT INTO students VALUES (1, 'Aman', 'CSE'), (2, 'Rahul', 'IT'),(3, 'Priya', 'CSE');
 
-INSERT INTO books VALUES(101, 'Python Basics', 'John'),(102, 'SQL Guide', 'David'),(103, 'Java Programming', 'James');
+INSERT INTO books VALUES(101, 'Python Basilcs', 'John'),(102, 'SQL Guide', 'David'),(103, 'Java Programming', 'James');
 
 INSERT INTO borrow_records VALUES(1, 1, 101, '2026-10-10'),(2, 2, 102, '2026-10-12'),(3, 1, 103, '2026-10-15');
 
