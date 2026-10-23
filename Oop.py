@@ -84,3 +84,5 @@ d2 = SmartDevice("Fan", False)
 
 print(d1.get_status())
 print(d2.get_status())
+#--------------------------------------------------
+

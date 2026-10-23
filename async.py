@@ -24,17 +24,17 @@ async def main():
 asyncio.run(main())
 #--------------------------------------------
 
-async def brew(name):
-    print(f"Brewing {name}")
-    await asyncio.sleep(2)
-    print(f"{name} is ready")
+# async def brew(name):
+#     print(f"Brewing {name}")
+#     await asyncio.sleep(2)
+#     print(f"{name} is ready")
 
-async def main():
-    await asyncio.gather(
-        brew("Masala chai"),
-        brew("elaichi chai"),
-        brew("ginger chai")
-    )
+# async def main():
+#     await asyncio.gather(
+#         brew("Masala chai"),
+#         brew("elaichi chai"),
+#         brew("ginger chai")
+#     )
 
-asyncio.run(main())
+# asyncio.run(main())
 #--------------------------------------
